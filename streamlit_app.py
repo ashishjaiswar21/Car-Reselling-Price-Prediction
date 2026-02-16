@@ -3,10 +3,15 @@ import requests
 
 st.set_page_config(page_title="Car Price Prediction", page_icon="🚗", layout="centered")
 
+# API_URL = (
+#     "https://car-reselling-price-prediction.onrender.com/predict"
+#     or "http://127.0.0.1:8000/predict"
+# )  # change if your endpoint differs
 API_URL = (
-    "https://car-prediction-lpfl.onrender.com/predict"
-    or "http://127.0.0.1:8000/predict"
+    "https://car-reselling-price-prediction.onrender.com/predict" or 
+    "http://127.0.0.1:8000/predict"
 )  # change if your endpoint differs
+
 
 st.title("🚗 Car Price Prediction")
 st.caption(
